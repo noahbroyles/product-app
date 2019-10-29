@@ -1,5 +1,5 @@
 # product-app
-###This is a sort of POS python app
+### This is a sort of POS python app
 
 This project is a simple product tracking command-line application. I wrote it for fun in about 2 days and I think it's pretty cool.
 
