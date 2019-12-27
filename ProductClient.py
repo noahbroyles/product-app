@@ -76,8 +76,8 @@ try:
                 pass
 
         elif action == 'exit':
-            backthemothaup = input('Do you want to backup the product listing before you close? ').lower()
-            if backthemothaup[0] == 'y':
+            backerup = input('Do you want to backup the product listing before you close? ').lower()
+            if backerup[0] == 'y':
                 backup()
                 break
             else:
