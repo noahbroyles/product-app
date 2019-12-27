@@ -1,5 +1,9 @@
+# I just found https://stackoverflow.com/questions/58591423/python-prints-escape-keys-while-entering-input-when-pressing-the-arrow-keys-on-t which is SUCH useful info to know! I thought 
+# there was no way to keep out those nasty ^[[D's when trying to arrow around in a python input. 
+# You bet your life I added `import readline`.
+
 from product import Product
-import sys, os
+import sys, os, readline
 
 products = []
 
