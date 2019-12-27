@@ -1,5 +1,3 @@
-
-
 # product-app
 ### This is a sort of POS python app
 
