@@ -2,6 +2,7 @@
 # there was no way to keep out those nasty ^[[D's when trying to arrow around in a python input. 
 # You bet your life I added `import readline`.
 
+# IMPORT READLINE!!!
 from product import Product
 import sys, os, readline
 
@@ -120,6 +121,7 @@ try:
                     products[index].setInventory(int(count))
             except KeyboardInterrupt:
                 pass
+            print()
 
         elif action == 'buy':
             try:
